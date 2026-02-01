@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Website",
-  description: "Welcome to our amazing website",
+  title: "Centegy PL",
+  description: "Emowering Your Digital Future",
 };
 
 export default function RootLayout({
