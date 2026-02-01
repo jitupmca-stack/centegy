@@ -18,9 +18,9 @@ export default function Contact() {
               Address
             </h3>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-              123 Business Street<br />
-              New York, NY 10001<br />
-              USA
+              Kunti Enclave, 2, Pilikothi RD<br />
+              Badi Mukhani, Haldwani 263139<br />
+              India
             </p>
           </div>
 
@@ -30,8 +30,7 @@ export default function Contact() {
               Phone
             </h3>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-              +1 (555) 123-4567<br />
-              Mon - Fri: 9am - 6pm EST
+              +91 8826430505
             </p>
           </div>
 
@@ -41,9 +40,10 @@ export default function Contact() {
               Email
             </h3>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-              info@company.com<br />
-              support@company.com
-            </p>
+              <a href="mailto:info@centegypl.com" className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 break-all">
+                  info@centegypl.com
+                </a>
+              </p>
           </div>
         </div>
 
