@@ -1,4 +1,24 @@
+'use client';
+import { sendContactEmail } from './send-email';
 export default function Contact() {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    /*const token = await grecaptcha.execute(
+      process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY,
+      { action: 'contact' }
+    );*/
+
+    await sendContactEmail({
+      name: e.target.name.value,
+      subject: e.target.subject.value,
+      email: e.target.email.value,
+      message: e.target.message.value,
+      //captchaToken: token,
+    });
+
+    e.target.reset();
+  };
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20">
@@ -51,7 +71,7 @@ export default function Contact() {
           <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">
             Send us a Message
           </h2>
-          <form className="space-y-4 sm:space-y-6">
+          <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
             <div>
               <label className="block text-gray-900 dark:text-white font-medium mb-2 text-sm sm:text-base">
                 Full Name
@@ -59,7 +79,7 @@ export default function Contact() {
               <input
                 type="text"
                 className="w-full px-3 sm:px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-600 dark:bg-gray-700 dark:text-white text-sm sm:text-base"
-                placeholder="John Doe"
+                placeholder="John Doe" name="name"
               />
             </div>
 
@@ -70,7 +90,7 @@ export default function Contact() {
               <input
                 type="email"
                 className="w-full px-3 sm:px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-600 dark:bg-gray-700 dark:text-white text-sm sm:text-base"
-                placeholder="john@example.com"
+                placeholder="john@example.com" name="email"
               />
             </div>
 
@@ -81,7 +101,7 @@ export default function Contact() {
               <input
                 type="text"
                 className="w-full px-3 sm:px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-600 dark:bg-gray-700 dark:text-white text-sm sm:text-base"
-                placeholder="How can we help?"
+                placeholder="How can we help?" name="subject"
               />
             </div>
 
@@ -92,7 +112,7 @@ export default function Contact() {
               <textarea
                 rows={6}
                 className="w-full px-3 sm:px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-600 dark:bg-gray-700 dark:text-white text-sm sm:text-base"
-                placeholder="Your message here..."
+                placeholder="Your message here..." name="message"
               ></textarea>
             </div>
 
