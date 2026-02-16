@@ -36,9 +36,9 @@ export default function Domains() {
       description: 'Community platforms, networking applications, and content sharing systems'
     },
     {
-      icon: '🎮',
-      title: 'Gaming',
-      description: 'Game development, backend services, and multiplayer game platforms'
+      icon: '✈️',
+      title: 'Travel',
+      description: 'Booking platforms, itinerary management, and travel reservation systems'
     },
     {
       icon: '🏭',

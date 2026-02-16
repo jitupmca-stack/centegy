@@ -35,6 +35,56 @@ export default function About() {
           </div>
         </div>
 
+        <div className="mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 text-center">
+            Who We Are
+          </h2>
+          <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-8 sm:mb-12 text-center max-w-3xl mx-auto">
+            Our leadership team brings together decades of experience and expertise. We're committed to driving innovation and delivering exceptional results for our clients.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12">
+            <div className="text-center">
+              <img
+                src="/kothari-ceo.jpeg"
+                alt="CEO"
+                className="w-full max-w-xs h-64 object-cover rounded-lg shadow-lg mx-auto mb-4"
+              />
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                Manish Kothari
+              </h3>
+              <p className="text-base sm:text-lg text-blue-600 dark:text-blue-400 font-semibold">
+                Chief Executive Officer
+              </p>
+            </div>
+            <div className="text-center">
+              <img
+                src="/jitendra-cto.jpeg"
+                alt="CTO"
+                className="w-full max-w-xs h-64 object-cover rounded-lg shadow-lg mx-auto mb-4"
+              />
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                Jitendra Upraity
+              </h3>
+              <p className="text-base sm:text-lg text-blue-600 dark:text-blue-400 font-semibold">
+                Chief Technology Officer
+              </p>
+            </div>
+            <div className="text-center">
+              <img
+                src="/saachin.jpg"
+                alt="SA"
+                className="w-full max-w-xs h-64 object-cover rounded-lg shadow-lg mx-auto mb-4"
+              />
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                Saachin Ahuja
+              </h3>
+              <p className="text-base sm:text-lg text-blue-600 dark:text-blue-400 font-semibold">
+                Solution Architect
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="bg-gray-50 dark:bg-gray-800 p-6 sm:p-8 md:p-12 rounded-lg">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8">
             Our Values
