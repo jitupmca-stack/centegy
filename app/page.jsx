@@ -14,7 +14,7 @@ export default function Home() {
               href="/contact"
               className="px-6 sm:px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition active:scale-95 text-center"
             >
-              Talk to an Architect
+              Talk to Team
             </a>
             <a
               href="/contact"
