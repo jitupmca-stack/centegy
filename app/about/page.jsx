@@ -9,29 +9,31 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 mb-12 sm:mb-16">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop"
+              src="/kothari-ceo.jpeg?w=500&h=400&fit=crop"
               alt="About Us"
               className="rounded-lg shadow-lg w-full"
             />
           </div>
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">
-              Our Story
-            </h2>
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-3 sm:mb-4">
-              Founded in 2020, our company has grown from a small startup to a
-              thriving business with a global reach. We're passionate about
-              delivering exceptional value to our clients.
+             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-3 sm:mb-4">
+              Centegy is a technology-driven company specializing in 
+              building scalable, secure, and future-ready digital platforms. We empower
+               organizations through advanced Web development, Cloud-native engineering, 
+               DevOps automation, Big Data analytics, and strategic Solution Architecture.
             </p>
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-3 sm:mb-4">
-              Our mission is to transform businesses through innovative solutions
-              and dedicated service. We believe in building long-term relationships
-              with our clients based on trust and excellence.
+              Our expertise in cloud infrastructure and microservices ensures resilient, 
+              high-performance systems that adapt to evolving business needs. By integrating 
+              DevOps best practices, we enable continuous delivery, faster innovation, and 
+              operational efficiency.
             </p>
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
-              With a team of experienced professionals, we continue to push
-              boundaries and set new standards in our industry.
+            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-3 sm:mb-4">
+              With strong data engineering and analytics capabilities, Centegy transforms 
+              complex data into actionable insights. We design intelligent, cost-optimized, 
+              and governance-driven digital ecosystems that accelerate
+               growth, enhance agility, and deliver measurable business impact.
             </p>
+            
           </div>
         </div>
 
@@ -45,7 +47,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12">
             <div className="text-center">
               <img
-                src="/kothari-ceo.jpeg"
+                src="/Kothari.jpeg"
                 alt="CEO"
                 className="w-full max-w-xs h-64 object-cover rounded-lg shadow-lg mx-auto mb-4"
               />
@@ -58,12 +60,12 @@ export default function About() {
             </div>
             <div className="text-center">
               <img
-                src="/jitendra-cto.jpeg"
+                src="/Sachin2.jpeg"
                 alt="CTO"
                 className="w-full max-w-xs h-64 object-cover rounded-lg shadow-lg mx-auto mb-4"
               />
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                Jitendra Upraity
+                Saachin Ahuja
               </h3>
               <p className="text-base sm:text-lg text-blue-600 dark:text-blue-400 font-semibold">
                 Chief Technology Officer
@@ -71,15 +73,15 @@ export default function About() {
             </div>
             <div className="text-center">
               <img
-                src="/saachin.jpg"
+                src="/jitendra2.jpeg"
                 alt="SA"
                 className="w-full max-w-xs h-64 object-cover rounded-lg shadow-lg mx-auto mb-4"
               />
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                Saachin Ahuja
+                Jitendra Upraity
               </h3>
               <p className="text-base sm:text-lg text-blue-600 dark:text-blue-400 font-semibold">
-                Solution Architect
+                Vice President
               </p>
             </div>
           </div>

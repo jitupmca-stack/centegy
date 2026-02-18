@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Hide Next.js dev indicators and overlays */
+div[class*="dev"],
+div[class*="Dev"],
+div[class*="indicator"],
+[data-nextjs-dev-indicator],
+#__next-dev-button,
+.__dev__indicator {
+  display: none !important;
+}

@@ -33,15 +33,16 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
           <div className="bg-white dark:bg-gray-800 p-6 sm:p-8 rounded-lg shadow-lg text-center">
-            <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">📍</div>
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-2">
-              Address
-            </h3>
+           <h6 className="font-bold">Head Office:</h6>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
+               A3 wing , Rosa Gardenia , Kasarvadavali , 
+              Ghodbubder road, Thane, Mumbai 400615<br /><br />
+           </p>
+              <h6 className="font-bold">Branch Office:</h6>
+              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
               Kunti Enclave, 2, Pilikothi RD<br />
               Badi Mukhani, Haldwani 263139<br />
-              India
-            </p>
+             </p>
           </div>
 
           <div className="bg-white dark:bg-gray-800 p-6 sm:p-8 rounded-lg shadow-lg text-center">
@@ -63,13 +64,17 @@ export default function Contact() {
               <a href="mailto:info@centegypl.com" className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 break-all">
                   info@centegypl.com
                 </a>
+              <br /><br />
+              <a href="https://www.linkedin.com/company/centegypl" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
+                🔗 LinkedIn
+              </a>
               </p>
           </div>
         </div>
 
         <div className="bg-white dark:bg-gray-800 p-6 sm:p-8 md:p-12 rounded-lg shadow-lg max-w-2xl mx-auto">
           <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">
-            Send us a Message
+            Get in Touch with Us
           </h2>
           <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
             <div>
