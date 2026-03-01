@@ -1,14 +1,9 @@
 export default function Technologies() {
   const technologies = [
     {
-      category: 'Web Technology',
-      icon: '🌐',
-      tools: ['React', 'Node', 'Python', 'Java', 'Spring Boot', 'PostgreSQL']
-    },
-    {
-      category: 'App',
-      icon: '📱',
-      tools: ['React Native', 'Flutter', 'Swift', 'Kotlin']
+      category: 'Big Data',
+      icon: '📊',
+      tools: ['Flink', 'Spark', 'Kafka', 'Elasticsearch', 'BigQuery', 'Redshift']
     },
     {
       category: 'Cloud & DevOps',
@@ -21,9 +16,14 @@ export default function Technologies() {
       tools: ['TensorFlow', 'PyTorch', 'OpenAI', 'Scikit-learn', 'LLMs']
     },
     {
-      category: 'Big Data',
-      icon: '📊',
-      tools: ['Flink', 'Spark', 'Kafka', 'Elasticsearch', 'BigQuery', 'Redshift']
+      category: 'Web Technology',
+      icon: '🌐',
+      tools: ['React', 'Node', 'Python', 'Java', 'Spring Boot', 'PostgreSQL']
+    },
+    {
+      category: 'App',
+      icon: '📱',
+      tools: ['React Native', 'Flutter', 'Swift', 'Kotlin']
     },
     {
       category: 'Tools & Platforms',

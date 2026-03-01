@@ -35,13 +35,14 @@ export default function Contact() {
           <div className="bg-white dark:bg-gray-800 p-6 sm:p-8 rounded-lg shadow-lg text-center">
            <h6 className="font-bold">Head Office:</h6>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-               A3 wing , Rosa Gardenia , Kasarvadavali , 
-              Ghodbubder road, Thane, Mumbai 400615<br /><br />
+               Kunti Enclave, 2, Pilikothi RD<br />
+              Badi Mukhani, Haldwani 263139<br /><br />
            </p>
               <h6 className="font-bold">Branch Office:</h6>
               <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-              Kunti Enclave, 2, Pilikothi RD<br />
-              Badi Mukhani, Haldwani 263139<br />
+                A3 wing , Rosa Gardenia , Kasarvadavali , 
+              Ghodbubder road, Thane, Mumbai 400615
+              
              </p>
           </div>
 

@@ -10,8 +10,19 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} Centegy Pvt. Ltd.{' '}All rights reserved.
           
         </div>
-
-        <div className="flex items-center gap-4">
+  <a
+            href="https://www.linkedin.com/company/centegypl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 dark:text-gray-300 hover:text-blue-600"
+            aria-label="Centegy on LinkedIn"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+              <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.1 3.4 6.1 7.8V24h-5V16.5c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.6h-5V8z" />
+            </svg>
+          </a>
+        <div className="flex items-left gap-4">
+        
           <nav className="hidden sm:flex items-center gap-4">
             <Link href="/" className="text-blue-600 hover:underline">
             Home
@@ -30,20 +41,10 @@ export default function Footer() {
             </Link> |
             <Link href="/contact" className="text-gray-600 dark:text-gray-300 hover:text-blue-600">
               Contact
-            </Link> |
-          </nav>
+            </Link> 
+          </nav> 
 
-          <a
-            href="https://www.linkedin.com/company/centegypl"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-600 dark:text-gray-300 hover:text-blue-600"
-            aria-label="Centegy on LinkedIn"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-              <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.1 3.4 6.1 7.8V24h-5V16.5c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.6h-5V8z" />
-            </svg>
-          </a>
+          
         </div>
       </div>
     </footer>
